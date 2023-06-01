@@ -8,15 +8,15 @@ This is a nx repo integrated with and sole react app called app1, we have the en
 VITE_REACT1=Hello world development
 ```
 
-If i put .env.development the file in:
+If i put the file .env.development in:
 
 Project Root
-doesn't work
+= doesn't work
 
 Project Folder
-Works
+= Works
 
-In this sample please start the app with:
+Try this, start the app with:
 
 ```
 nx serve app1
@@ -25,12 +25,14 @@ nx serve app1
 go to
 http://localhost:4200/
 
-The variable is empty.
+You will see the variable empty.
 
-move the file .env.development to the app folder:
+Move the file .env.development to the app folder:
 
 ```
 mv .env.development apps/app1/
 ```
 
-And it will work.
+And it will work !
+
+Hope it helps.
